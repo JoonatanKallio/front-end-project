@@ -8,25 +8,37 @@ body {
   background: $secondary-color;
 }
 
-.name-bg {
-  background-color: $primary-color;
-  position: relative;
-  text-align: center;
-  height: fit-content;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 100%;
-}
-
 h1 {
   color: $primary-color;
   font-size: 50px;
   font-weight: 50x;
   &.firmname {
-    margin: 0 0 0 0;
     color: black;
     align-self: center;
     font-family: "Times New Roman", Times, serif;
+  }
+}
+.head {
+  align-content: space-around;
+
+  h1 {
+    text-align: left;
+    padding-left: 7%;
+  }
+
+  .menu-btn {
+    position: absolute;
+    z-index: 3;
+    right: 35px;
+    top: 53px;
+    cursor: pointer;
+
+    .btn-line {
+      width: 28px;
+      height: 3px;
+      margin: 0 0 5px 0;
+      background: black;
+    }
   }
 }
 
@@ -34,7 +46,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 10%;
+  margin-top: 5%;
 
   .text {
     width: 40%;
@@ -42,6 +54,6 @@ h1 {
   }
   .image1 {
     width: 40%;
-    height: 400px;
+    height: 20%;
   }
 }
