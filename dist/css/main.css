@@ -1,3 +1,18 @@
+body {
+  background: grey; }
+
+.name-bg {
+  background-color: red;
+  position: absolute;
+  align-items: center;
+  height: fit-content; }
+
 h1 {
+  color: #fff;
   font-size: 100px;
   font-weight: 100px; }
+  h1.firmname {
+    position: relative;
+    padding-top: 0;
+    padding: 0 0 0;
+    font-family: "Times New Roman", Times, serif; }
