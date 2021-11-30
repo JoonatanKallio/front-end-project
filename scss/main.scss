@@ -1,14 +1,19 @@
 @import "config";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: $secondary-color;
 }
 
 .name-bg {
   background-color: red;
-  position: absolute;
+  position: relative;
   align-items: center;
   height: fit-content;
+  width: 100%;
 }
 
 h1 {
@@ -17,8 +22,6 @@ h1 {
   font-weight: 100px;
   &.firmname {
     position: relative;
-    padding-top: 0;
-    padding: 0 0 0;
     font-family: "Times New Roman", Times, serif;
   }
 }

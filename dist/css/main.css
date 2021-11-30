@@ -1,11 +1,15 @@
+* {
+  box-sizing: border-box; }
+
 body {
   background: grey; }
 
 .name-bg {
   background-color: red;
-  position: absolute;
+  position: relative;
   align-items: center;
-  height: fit-content; }
+  height: fit-content;
+  width: 100%; }
 
 h1 {
   color: #fff;
@@ -13,6 +17,4 @@ h1 {
   font-weight: 100px; }
   h1.firmname {
     position: relative;
-    padding-top: 0;
-    padding: 0 0 0;
     font-family: "Times New Roman", Times, serif; }
