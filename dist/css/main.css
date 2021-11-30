@@ -16,5 +16,5 @@ h1 {
   font-size: 100px;
   font-weight: 100px; }
   h1.firmname {
-    position: relative;
+    margin: 0 0 0 0;
     font-family: "Times New Roman", Times, serif; }
