@@ -53,23 +53,25 @@ h1 {
   margin-top: 4rem;
   margin-left: 2%;
   margin-right: 2%;
-  .box {
+  .left {
     width: 40%;
     height: 50%;
-    flex: 1;
-
     .image2 {
       border: 2px solid #fff;
+      width: 100%;
       margin-top: 2rem;
     }
+  }
 
-    .image1 {
-      @include easeIn;
-      border: 2px solid #fff;
-      &:hover {
-        @include easeOut;
-        border: 10px solid #fff;
-      }
+  .image1 {
+    @include easeIn;
+    border: 2px solid #fff;
+
+    width: 44.9%;
+    height: 100%;
+    &:hover {
+      @include easeOut;
+      border: 10px solid #fff;
     }
   }
 }
