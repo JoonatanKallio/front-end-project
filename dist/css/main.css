@@ -41,24 +41,21 @@ h1 {
   margin-top: 4rem;
   margin-left: 2%;
   margin-right: 2%; }
-  .companyinfo .left {
+  .companyinfo .box {
     width: 40%;
-    height: 50%; }
-    .companyinfo .left .image2 {
+    height: 50%;
+    flex: 1; }
+    .companyinfo .box .image2 {
       border: 2px solid #fff;
-      width: 100%;
       margin-top: 2rem; }
-  .companyinfo .image1 {
-    transition: all 0.2s ease-in;
-    border: 2px solid #fff;
-    margin: 1rem 0 0;
-    max-width: 44.9%;
-    max-height: 100%; }
-    .companyinfo .image1:hover {
-      transition: all 0.3s ease-out;
-      border: 10px solid #fff; }
+    .companyinfo .box .image1 {
+      transition: all 0.2s ease-in;
+      border: 2px solid #fff; }
+      .companyinfo .box .image1:hover {
+        transition: all 0.3s ease-out;
+        border: 10px solid #fff; }
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1200px) {
   .companyinfo {
     margin-left: 7%;
     margin-right: 7%; }
