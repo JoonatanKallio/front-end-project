@@ -1,5 +1,7 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 0 0 0;
+  margin: 0 0 0; }
 
 body {
   background: grey; }
@@ -11,13 +13,15 @@ h1 {
   h1.firmname {
     color: black;
     align-self: center;
-    font-family: "Times New Roman", Times, serif; }
+    font-family: sans-serif; }
 
 .head {
-  align-content: space-around; }
+  align-content: space-around;
+  margin-top: 2rem; }
   .head h1 {
     text-align: left;
-    padding-left: 7%; }
+    margin-left: 7%;
+    margin-right: 9%; }
   .head .menu-btn {
     position: absolute;
     z-index: 3;
@@ -34,10 +38,36 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 5%; }
-  .companyinfo .text {
+  margin-top: 4rem;
+  margin-left: 2%;
+  margin-right: 2%; }
+  .companyinfo .left {
     width: 40%;
-    background-color: blue; }
+    height: 50%; }
+    .companyinfo .left .image2 {
+      border: 2px solid #fff;
+      width: 100%;
+      margin-top: 2rem; }
+  .companyinfo a {
+    position: absolute;
+    left: 50%;
+    top: 50%; }
   .companyinfo .image1 {
-    width: 40%;
-    height: 20%; }
+    transition: all 0.2s ease-in;
+    border: 2px solid #fff;
+    width: 44.9%;
+    height: 100%; }
+    .companyinfo .image1:hover {
+      transition: all 0.3s ease-out;
+      border: 10px solid #fff; }
+
+@media screen and (max-width: 768px) {
+  .companyinfo {
+    margin-left: 7%;
+    margin-right: 7%; }
+    .companyinfo .left {
+      width: 100%;
+      margin-bottom: 1rem; }
+    .companyinfo .image1 {
+      width: 100%;
+      margin-bottom: 1rem; } }

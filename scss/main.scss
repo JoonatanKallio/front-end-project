@@ -2,6 +2,8 @@
 
 * {
   box-sizing: border-box;
+  padding: 0 0 0;
+  margin: 0 0 0;
 }
 
 body {
@@ -15,15 +17,17 @@ h1 {
   &.firmname {
     color: black;
     align-self: center;
-    font-family: "Times New Roman", Times, serif;
+    font-family: sans-serif;
   }
 }
 .head {
   align-content: space-around;
+  margin-top: 2rem;
 
   h1 {
     text-align: left;
-    padding-left: 7%;
+    margin-left: 7%;
+    margin-right: 9%;
   }
 
   .menu-btn {
@@ -46,14 +50,33 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 5%;
-
-  .text {
+  margin-top: 4rem;
+  margin-left: 2%;
+  margin-right: 2%;
+  .left {
     width: 40%;
-    background-color: blue;
+    height: 50%;
+    .image2 {
+      border: 2px solid #fff;
+      width: 100%;
+      margin-top: 2rem;
+    }
+  }
+
+  a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
   }
   .image1 {
-    width: 40%;
-    height: 20%;
+    @include easeIn;
+    border: 2px solid #fff;
+    width: 44.9%;
+    height: 100%;
+    &:hover {
+      @include easeOut;
+      border: 10px solid #fff;
+    }
   }
 }
+@import "mobile";
