@@ -48,15 +48,13 @@ h1 {
       border: 2px solid #fff;
       width: 100%;
       margin-top: 2rem; }
-  .companyinfo a {
-    position: absolute;
-    left: 50%;
-    top: 50%; }
   .companyinfo .image1 {
     transition: all 0.2s ease-in;
     border: 2px solid #fff;
-    width: 44.9%;
-    height: 100%; }
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 44.9%;
+    max-height: 100%; }
     .companyinfo .image1:hover {
       transition: all 0.3s ease-out;
       border: 10px solid #fff; }
