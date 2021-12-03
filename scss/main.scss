@@ -63,16 +63,13 @@ h1 {
     }
   }
 
-  a {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-  }
   .image1 {
     @include easeIn;
     border: 2px solid #fff;
-    width: 44.9%;
-    height: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 44.9%;
+    max-height: 100%;
     &:hover {
       @include easeOut;
       border: 10px solid #fff;
