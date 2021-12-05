@@ -6,39 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <title>Imaginary company</title>
+    <title>ICC - Imaginary construction Company</title>
 </head>
 <body id="background-img">
     <header>
         <div class="head">
-            <h1 class="firmname">Imaginary construction company</h1>
-            <div class="menu-btn">
-                <div class="btn-line"></div>
-                <div class="btn-line"></div>
-                <div class="btn-line"></div>
-            </div>
+            <h1 class="firmname">Imaginary Construction Company</h1>
         </div>
-        
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
         <nav class="menu">
-
+            <ul class="menu-nav">
+                <li class="nav-item current">
+                    <a href="/" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                
+            </ul>
+          
+                
+            
         </nav>
     </header>
     <main id="homepage">
         <div class="companyinfo">
             <div class="left">
-                <h2>We make your dreams come true.</h2>
+                <h2 class="h2info">We make your dreams come true.</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, quam ad! Suscipit voluptas cum, reprehenderit nisi odio aperiam sapiente enim culpa facere animi omnis, sint vitae adipisci numquam quae minima. Facilis similique magni nulla enim nesciunt beatae natus omnis officia?</p>
                 <img src="img/building2.jpg" class="image2">
             </div>
 
+            <div class="right">
+                <img src="img/building1.jpg" class="image1" onclick="funktio()">
+            </div>
             
-                <img src="img/building1.jpg" class="image1" >
             
-            
+            <script>
+                function funktio() {
+                    window.location.href = "contact.html"
+                }
+            </script>
                         
         </div>
         
 
     </main>
+    <script src="javascript/main.js" defer></script>
 </body>
 </html>
