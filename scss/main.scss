@@ -58,20 +58,13 @@ h1 {
     width: 45%;
     height: 100%;
     align-items: flex-end;
-    .contact {
-      color: black;
-      background-color: $secondary-color;
-      border-radius: 6px;
-      border: none;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-    }
+    padding-top: 2.5rem;
 
     .image1 {
-      margin-top: 1.5rem;
+      margin-top: 2rem;
       border: 2px solid $secondary-color;
       width: 85%;
+      object-fit: contain;
     }
   }
 }
@@ -80,4 +73,30 @@ h1 {
   margin-left: 7%;
   margin-top: 5rem;
 }
+
+.gallerygrid {
+  display: grid;
+
+  grid-gap: 30px;
+  grid-template-areas:
+    "contact image3"
+    "image1 image2 ";
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 7%;
+  margin-right: 10%;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.contact {
+  .h1,
+  h2 {
+    margin: 1rem 1rem 1rem;
+  }
+  color: white;
+  background-color: darken($primary-color, 5%);
+}
+.image {
+  overflow: hidden;
+}
+
 @import "mobile";
