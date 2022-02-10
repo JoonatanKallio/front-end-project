@@ -122,18 +122,17 @@ h1 {
 .gallerygrid {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "contact image3" "image1 image2";
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "image2 image3" "image1";
+  grid-template-columns: 2fr;
   margin-left: 7%;
   margin-right: 12%;
-  margin-top: 4rem;
   margin-bottom: 4rem; }
-  .gallerygrid .image2 {
-    width: 100%; }
-  .gallerygrid .image3 {
-    width: 100%; }
 
 .contact {
+  margin-top: 5rem;
+  margin-left: 7%;
+  margin-right: 12%;
+  margin-bottom: 0;
   color: white;
   background-color: #3f5462; }
   .contact .h1,
