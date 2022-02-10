@@ -39,5 +39,10 @@
     grid-template-areas:
       "contact" "image1"
       "image2" "image2" "image3";
+
+    .image2 {
+      width: 1000px;
+      height: 570px;
+    }
   }
 }
