@@ -7,10 +7,37 @@
     .left {
       width: 100%;
       margin-bottom: 1rem;
-      margin-right: 6rem;
     }
     .right {
       width: 100%;
     }
+  }
+
+  .gallerygrid {
+    grid-template-areas:
+      "contact"
+      "image3"
+      "image2"
+      "image1";
+
+    grid-template-columns: 2fr;
+
+    .image2 {
+      width: 500px;
+      height: 285px;
+    }
+  }
+
+  .contact {
+    margin-right: 1%;
+    width: 500px;
+  }
+}
+
+@include mediaxl {
+  .gallerygrid {
+    grid-template-areas:
+      "contact" "image1"
+      "image2" "image2" "image3";
   }
 }
