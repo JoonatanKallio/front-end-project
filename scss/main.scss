@@ -51,7 +51,7 @@ h1 {
       border: 2px solid $secondary-color;
       width: 100%;
 
-      margin-top: 1rem;
+      margin-top: 3.4rem;
     }
   }
 
@@ -80,18 +80,43 @@ h1 {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
-    "image2 image3"
-    "image1";
+    "image1 image2"
+    "image3 image4";
   grid-template-columns: 2fr;
   margin-left: 7%;
   margin-right: 12%;
   margin-bottom: 4rem;
 }
+.image1 {
+  grid-area: image1;
+  height: 410px;
+}
+
+.image2 {
+  grid-area: image2;
+  height: 410px;
+}
+
+.image3 {
+  grid-area: image3;
+  height: 410px;
+}
+.image4 {
+  grid-area: image4;
+  height: 410px;
+}
+
 .contact {
-  margin-top: 5rem;
+  margin-top: 6rem;
   margin-left: 7%;
   margin-right: 12%;
-  margin-bottom: 0;
+  margin-bottom: 2rem;
+  padding-left: 1%;
+  .works {
+    text-decoration: underline;
+    font-size: 250%;
+    padding-bottom: 1rem;
+  }
   .h1,
   h2 {
     margin: 1rem 1rem 1rem;
