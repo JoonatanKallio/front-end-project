@@ -100,8 +100,7 @@ h1 {
       margin-top: 1rem; }
     .companyinfo .left .image2 {
       border: 2px solid #fff;
-      width: 100%;
-      margin-top: 3.4rem; }
+      width: 100%; }
   .companyinfo .right {
     width: 45%;
     height: 100%;
@@ -121,7 +120,7 @@ h1 {
 
 .gallerygrid {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 50px;
   grid-template-areas: "image1 image2" "image3 image4";
   grid-template-columns: 2fr;
   margin-left: 7%;
@@ -130,19 +129,23 @@ h1 {
 
 .image1 {
   grid-area: image1;
-  height: 410px; }
+  height: 410px;
+  width: fit-content; }
 
 .image2 {
   grid-area: image2;
-  height: 410px; }
+  height: 410px;
+  width: fit-content; }
 
 .image3 {
   grid-area: image3;
-  height: 410px; }
+  height: 410px;
+  width: fit-content; }
 
 .image4 {
   grid-area: image4;
-  height: 410px; }
+  height: 410px;
+  width: fit-content; }
 
 .contact {
   margin-top: 6rem;
