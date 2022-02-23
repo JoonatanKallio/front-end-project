@@ -50,8 +50,6 @@ h1 {
     .image2 {
       border: 2px solid $secondary-color;
       width: 100%;
-
-      margin-top: 3.4rem;
     }
   }
 
@@ -78,7 +76,8 @@ h1 {
 
 .gallerygrid {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 50px;
+
   grid-template-areas:
     "image1 image2"
     "image3 image4";
@@ -90,20 +89,24 @@ h1 {
 .image1 {
   grid-area: image1;
   height: 410px;
+  width: fit-content;
 }
 
 .image2 {
   grid-area: image2;
   height: 410px;
+  width: fit-content;
 }
 
 .image3 {
   grid-area: image3;
   height: 410px;
+  width: fit-content;
 }
 .image4 {
   grid-area: image4;
   height: 410px;
+  width: fit-content;
 }
 
 .contact {
