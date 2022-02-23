@@ -36,6 +36,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-top: 5rem;
+
   margin-left: 2%;
   margin-right: 2%;
   height: 100%;
@@ -46,6 +47,7 @@ h1 {
     color: $secondary-color;
     p {
       margin-top: 1rem;
+      margin-bottom: 2rem;
     }
 
     .image2 {
