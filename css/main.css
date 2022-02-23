@@ -98,7 +98,8 @@ h1 {
     height: 50%;
     color: #fff; }
     .companyinfo .left p {
-      margin-top: 1rem; }
+      margin-top: 1rem;
+      margin-bottom: 2rem; }
     .companyinfo .left .image2 {
       border: 2px solid #fff;
       width: 100%;
